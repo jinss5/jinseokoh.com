@@ -1,0 +1,17 @@
+.about {
+    padding: 10%;
+    font-family: sans-serif;
+}
+
+.content-section {
+    padding-top: 20px;
+}
+
+.title {
+    margin: 0;
+}
+
+.date {
+    font-weight: normal;
+    margin: 0;
+}

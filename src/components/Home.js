@@ -1,0 +1,23 @@
+import React from "react";
+import "./css/Home.css";
+import ProfileImg2 from "../data/img/profile2.JPG";
+
+
+function Home () {
+    return (
+        <div className="home">
+            <img className="profile-pic" src={ProfileImg2} alt="profile_image" />
+            <div className="content">
+                <h2>Jinseok Oh</h2>
+                <p>Hello, I am a student at Texas A&M University studying computer science.<br/><br/>
+                    I have experience in front and back end development.<br/><br/>
+                    I have been called to fulfill my military duty on October, 2021.<br/>
+                    Thus, I will be serving in an active ROK army until April 2023 <br/><br/>
+                    Thank you for visiting my website :)
+                </p>
+            </div>
+        </div>
+    );
+}
+
+export default Home;
