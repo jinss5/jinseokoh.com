@@ -54,7 +54,7 @@ const Blog = () => {
 
     const submitHandler = (event) => {
         event.preventDefault();
-        if (password === "010524321") {
+        if (password === "12345") {
             setShowLink(true);
         } else {
             alert("Wrong Password");
