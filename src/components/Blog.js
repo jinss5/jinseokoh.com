@@ -85,12 +85,4 @@ const Blog = () => {
     )
 }
 
-const Link = () => (
-    <div className="link">
-        <SocialIcon url="https://healthy-crowberry-1b9.notion.site/Jinss-Blog-b653bb2236db4f85bc02951f333c54e5" bgColor="#ffffff" fgColor="#000000"/>
-    </div>
-)
-
-
-
 export default Blog;
