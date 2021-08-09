@@ -2,6 +2,17 @@ import React, {useState} from 'react';
 import { SocialIcon } from 'react-social-icons';
 import "./css/Blog.css";
 
+/*function Blog () {
+    return (
+        <div className="Blog">
+            password authentication
+        </div>
+    );
+}
+
+export default Blog;*/
+//<SocialIcon url="https://healthy-crowberry-1b9.notion.site/Jinss-Blog-b653bb2236db4f85bc02951f333c54e5" bgColor="#ffffff" fgColor="#000000"/>;
+
 /*class Blog extends Component {
     constructor(props) {
         super(props);
@@ -73,5 +84,13 @@ const Blog = () => {
         </div>
     )
 }
+
+const Link = () => (
+    <div className="link">
+        <SocialIcon url="https://healthy-crowberry-1b9.notion.site/Jinss-Blog-b653bb2236db4f85bc02951f333c54e5" bgColor="#ffffff" fgColor="#000000"/>
+    </div>
+)
+
+
 
 export default Blog;
