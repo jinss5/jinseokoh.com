@@ -8,10 +8,16 @@
 }
 
 .title {
+    font-style: italic;
     margin: 0;
+}
+
+.experience {
+    margin-bottom: 5px;
 }
 
 .date {
     font-weight: normal;
+    font-style: italic;
     margin: 0;
 }

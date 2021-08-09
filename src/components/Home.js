@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/Home.css";
-import ProfileImg2 from "../data/img/profile2.JPG";
+import ProfileImg2 from "../data/profile2.JPG";
 
 
 function Home () {
@@ -10,9 +10,10 @@ function Home () {
             <div className="content">
                 <h2>Jinseok Oh</h2>
                 <p>Hello, I am a student at Texas A&M University studying computer science.<br/><br/>
-                    I have experience in front and back end development.<br/><br/>
+                    My interest is in web development and machine learning.<br/><br/>
+                    I have experience working at a start-up company<br/> and am always looking to gain more experience.<br/><br/>
                     I have been called to fulfill my military duty on October, 2021.<br/>
-                    Thus, I will be serving in an active ROK army until April 2023 <br/><br/>
+                    And I will be serving in an active ROK army until April, 2023 <br/><br/>
                     Thank you for visiting my website :)
                 </p>
             </div>

@@ -3,18 +3,6 @@ import SkillBar from 'react-skillbars';
 import data from "../data/data.json";
 import "./css/About.css";
 
-const About = () => {
-    console.log(data);
-    return (
-        <div className="about">
-            <Education />
-            <Skills />
-            <Experience />
-            <Projects />
-        </div>
-    );
-}
-
 const Education = () => {
     return (
         <div id="education">
@@ -22,7 +10,7 @@ const Education = () => {
                 <h1>Education</h1>
                 <h3>Texas A&M University, 2020-2024</h3>
                 <h4>Bachelor of Science in Computer Science<br/>
-                    GPA 4.0</h4>
+                    GPA 4.0 / 4.0</h4>
                 <h3>Relevant Coursework</h3>
                 <ul className="course">
                     <li>Computation (Python)</li>
@@ -39,7 +27,8 @@ const skills = [
     {type: "Python", level: 90},
     {type: "HTML+CSS", level: 100},
     {type: "Javascript", level: 90},
-    {type: "React.js", level: 95},
+    {type: "React.js", level: 90},
+    {type: "Firebase", level: 80}
 ];
 
 const colors = {
@@ -110,6 +99,18 @@ const Projects = () => {
                     </div>
                 ))}
             </div>
+        </div>
+    );
+}
+
+const About = () => {
+    console.log(data);
+    return (
+        <div className="about">
+            <Education />
+            <Skills />
+            <Experience />
+            <Projects />
         </div>
     );
 }

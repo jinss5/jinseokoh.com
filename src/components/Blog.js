@@ -2,17 +2,6 @@ import React, {useState} from 'react';
 import { SocialIcon } from 'react-social-icons';
 import "./css/Blog.css";
 
-/*function Blog () {
-    return (
-        <div className="Blog">
-            password authentication
-        </div>
-    );
-}
-
-export default Blog;*/
-//<SocialIcon url="https://healthy-crowberry-1b9.notion.site/Jinss-Blog-b653bb2236db4f85bc02951f333c54e5" bgColor="#ffffff" fgColor="#000000"/>;
-
 /*class Blog extends Component {
     constructor(props) {
         super(props);
@@ -48,19 +37,26 @@ export default Blog;*/
     }
 }*/
 
+const Link = () => (
+    <div className="link">
+        <SocialIcon url="https://healthy-crowberry-1b9.notion.site/Jinss-Blog-b653bb2236db4f85bc02951f333c54e5" bgColor="#ffffff" fgColor="#000000"/>
+    </div>
+)
+
 const Blog = () => {
     const [showLink, setShowLink] = useState(false);
     const [password, setPassword] = useState('');
 
     const submitHandler = (event) => {
         event.preventDefault();
-        if (password === "010524321") {
+        if (password === "12345") {
             setShowLink(true);
         } else {
             alert("Wrong Password");
         }
     }
     const changeHandler = (event) => setPassword(event.target.value)
+
     return (
         <div className="blog">
             <form onSubmit={submitHandler}>
@@ -77,13 +73,5 @@ const Blog = () => {
         </div>
     )
 }
-
-const Link = () => (
-    <div className="link">
-        <SocialIcon url="https://healthy-crowberry-1b9.notion.site/Jinss-Blog-b653bb2236db4f85bc02951f333c54e5" bgColor="#ffffff" fgColor="#000000"/>
-    </div>
-)
-
-
 
 export default Blog;

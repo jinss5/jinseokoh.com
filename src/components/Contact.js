@@ -7,7 +7,8 @@ function Contact () {
         <div className="contact">
             <h2>Get in touch</h2>
             <p>
-                512-577-6341<br/>
+                US) 512-577-6341<br/>
+                KR) 010-6428-8816<br/>
                 jinss1145@gmail.com
             </p>
             <SocialIcon url="https://www.instagram.com/jinseok0h/" bgColor="#ffffff" fgColor="#000000"/>
