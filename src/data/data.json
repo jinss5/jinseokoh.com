@@ -43,7 +43,7 @@
       "description": [
         "Clone coded twitter application using React.js and Firebase",
         "Utilized Firebase Authentication to implement user registration, login, and logout",
-        "Develop realtime Tweet CRUD using Firestore database",
+        "Developed realtime Tweet CRUD using Firestore database",
         "Ensured API key security"
       ]
     }
