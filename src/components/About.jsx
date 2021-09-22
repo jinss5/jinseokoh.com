@@ -83,7 +83,6 @@ const Projects = () => {
         <div id="projects">
             <div className="content-section">
                 <h1>Projects</h1>
-
                 {data.projects.slice(0).reverse().map(project => (
                     <div className="experience-section">
                         <h3 className="experience">{project.title}</h3>
