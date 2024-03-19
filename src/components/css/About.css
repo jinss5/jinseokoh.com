@@ -1,0 +1,23 @@
+.about {
+    padding: 10%;
+    font-family: sans-serif;
+}
+
+.content-section {
+    padding-top: 20px;
+}
+
+.title {
+    font-style: italic;
+    margin: 0;
+}
+
+.experience {
+    margin-bottom: 5px;
+}
+
+.date {
+    font-weight: normal;
+    font-style: italic;
+    margin: 0;
+}

@@ -1,0 +1,51 @@
+{
+  "experience": [
+    {
+      "id":  1,
+      "title":  "Jober summer Intern",
+      "jobTitle": "Software Developer Intern",
+      "date": "06/2021 - 07/2021",
+      "description": [
+        "Developed job recruiting site using React.js",
+        "Communicated with ux ui designer to improve the design of recruiting site",
+        "Cooperated with 3 other interns using git and github",
+        "Conducted research on self authentication system in the US and Korea"
+      ]
+    },
+    {
+      "id":  2,
+      "title":  "Republic of Korea Army",
+      "jobTitle": "Soldier",
+      "date": "10/2021 - present",
+      "description": [
+        "Serving in an active Korea Army"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id":  1,
+      "title":  "Movie Service App",
+      "jobTitle": "Front-End Developer",
+      "date": "07/2021",
+      "description": [
+        "Developed a movie web service that exhibits features such as title, summary, and poster using React.js",
+        "Utilized Axios to fetch data from yts-proxy API",
+        "Implemented React Router to navigate through different pages without refreshing"
+      ]
+    },
+    {
+      "id":  2,
+      "title":  "Twitter Clone Coding",
+      "jobTitle": "Front-End Developer",
+      "date": "07/2021 - 08/2021",
+      "description": [
+        "Clone coded twitter application using React.js and Firebase",
+        "Utilized Firebase Authentication to implement user registration, login, and logout",
+        "Developed realtime Tweet CRUD using Firestore database",
+        "Ensured API key security"
+      ]
+    }
+
+  ]
+}
